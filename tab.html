@@ -1,0 +1,21 @@
+<!doctype html>
+<html data-ng-app="motivationalQuotes" data-ng-csp="">
+  <head>
+    <meta charset="UTF-8">
+    <title>Dr. Ian Malcolm Quotes</title>
+    <link href='http://fonts.googleapis.com/css?family=Fira+Sans:700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="./css/tab.css">
+  </head>
+  <body style="background-image:  linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),url('ian-mal.jpg');">
+    <div class="container" ng-controller="QuotesCtrl">
+      <div id="quote">{{ quote }}</div>
+      <p>Photo of Jeff Goldblum as Dr. Ian Malcolm from "Jurassic Park"(1993) Source: The Official Trailer</p>
+    </div>
+    <script src="./js/vendor/angular.min.js"></script>
+    <script src="./js/vendor/jquery.min.js"></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
